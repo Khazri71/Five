@@ -1,0 +1,281 @@
+/*Colors : 
+ #024959  #025951 #02735E #038C3E #0CF25D #29d9c2
+*/
+
+/*Font : Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,400&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+li{
+    list-style: none;
+}
+
+
+
+
+/*Repeat Classes*/
+.container{
+   max-width: 80%;
+   margin: auto;
+}
+
+.bg-primary{
+  background-color: #024959;
+}
+
+.title-color-success{
+    color:#77edd8;
+}
+.text-center{
+    text-align: center;
+}
+button{
+   padding: 12px 18px;
+   background-color:#29d9c2 ;
+   border: 0;
+   border-radius: 9px;
+   color: #fff;
+   font-size: 17px;
+}
+button:hover{
+    background-color:#024959;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+ .h1-heading{
+  font-size: 45px;
+  text-transform: uppercase;
+} 
+.padding-y{
+    padding: 25px 0;
+}
+
+.h2-heading{
+    padding: 30px ;
+    font-size: 30px;
+}
+
+.bg-section-color{
+ background-color: #efefef;
+} 
+
+/*. Repeat Classes*/
+
+/* Section Nav */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;  
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+
+#navbar ul li a{
+    color: #fff;
+    padding: 10px;
+}
+#navbar ul li a:hover{
+    background-color:#29d9c2 ;
+    border-radius: 9px;
+    color: #024959;
+}
+
+/*Section Home*/
+#showhome{
+    height: 100vh;
+    background-image: url(../images/sportwom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#showhome .showhome-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+/*Section About*/
+#showabout .showabout-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+
+}
+
+.item1{
+ flex-basis: 50%;
+
+}
+.item2{
+    flex-basis: 45%;
+
+}
+
+#showabout .showabout-content p {
+    border: 4px solid #29d9c2;
+    padding: 35px;
+    border-radius:15px;
+}
+#showabout .showabout-content img{
+    width: 100px;
+    border-radius:15px;
+}
+
+
+/*Section Philosophy */
+#showphilosophy{
+ background-image: url(../images/sportwo.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top;
+ color: #fff;
+}
+
+#showphilosophy .showphilosophy-content{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Section Programs*/
+
+#showprograms .parts{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#showprograms .parts .part{
+    flex-grow: 1;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color:#29d9c2;
+    border-radius: 15px;
+    border: 4px solid #29d9c2;
+}
+
+#showprograms .parts .part:hover{
+    flex-grow: 1;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: 4px solid #29d9c2;
+    border-radius: 15px;
+}
+
+#showprograms .parts .part img{
+    width: 40px;
+    margin-left: 20px;
+}
+
+/*Section Trainers*/
+
+#showtrainers .carts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+#showtrainers .carts .cart{
+    flex-grow:1;
+    margin: 10px 10px; 
+    padding: 20px 25px;
+    border-radius: 15px;
+    background-color:#efefef;   
+}
+#showtrainers .carts .cart img{
+    display: block;
+    /* width: 100%; */
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#showtrainers .carts .cart .icons-socilmedia a img{
+    width: 32px;
+    margin: 10px;
+}
+
+#showtrainers .carts .cart .icons-socilmedia {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 18px;
+}
+/*Section Contact*/
+#showcontact{
+    background-color: #efefef;
+}
+#showcontact .showcontact-content form{
+   background-color: #77edd8;
+   padding: 20px 100px;
+   border-radius: 15px;
+}
+
+#showcontact .showcontact-content form input , #showcontact .showcontact-content form textarea{
+    width: 100%;
+    margin: 3px 0px;
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+}
+
+#showcontact .showcontact-content form textarea{
+    resize: none;
+}
+#showcontact .showcontact-content form input[type="submit"]{
+    background-color:#024959;
+    color: #fff;
+    cursor: pointer;
+}
+#showcontact .showcontact-content form input[type="submit"]:hover{
+    background-color:#efefef;
+    color:#024959;
+    cursor: pointer;
+}
+
+/*Section Location*/
+#map{
+    height: 400px;
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+#showlocation{
+    background-color: #efefef;
+
+}
+
+/*Section Footer*/
+footer{
+    padding: 12px 0;
+    color: #fff;
+}
