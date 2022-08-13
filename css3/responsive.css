@@ -25,6 +25,9 @@
 }
 
  /*Section Home*/
+ #showhome{
+    background-position:top; 
+ }
  #showhome .showhome-content h1{
     margin: 0px 15px;
   }
@@ -44,6 +47,9 @@
 }
 
 /*Section Philosophy */
+#showphilosophy{
+    background-position:center;
+}
 #showphilosophy .showphilosophy-content p{
     font-size: 15px;
 }
@@ -65,7 +71,12 @@
     margin: 10px 10px; 
     padding: 20px 20px;   
 }
-
+#showtrainers .carts .cart img{
+    display: block;
+     width: 100%; 
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
 #showtrainers .carts .cart .icons-socilmedia a img{
     width: 32px;
     margin: 5px;

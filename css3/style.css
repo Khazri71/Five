@@ -106,7 +106,7 @@ button:hover{
     background-image: url(../images/sportwom.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
 
 #showhome .showhome-content{
@@ -217,6 +217,10 @@ button:hover{
     width: 300px;
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+#showtrainers .carts .cart {
+    color: #024959;
 }
 #showtrainers .carts .cart .icons-socilmedia a img{
     width: 32px;
