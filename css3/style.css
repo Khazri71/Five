@@ -93,6 +93,8 @@ button:hover{
 #navbar ul li a{
     color: #fff;
     padding: 10px;
+
+    
 }
 #navbar ul li a:hover{
     background-color:#29d9c2 ;
@@ -213,7 +215,6 @@ button:hover{
 }
 #showtrainers .carts .cart img{
     display: block;
-    /* width: 100%; */
     width: 300px;
     border-radius: 15px;
     margin-bottom: 10px;
